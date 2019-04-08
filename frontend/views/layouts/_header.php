@@ -221,7 +221,7 @@ $skype = explode( ':', Yii::$app->view->params['contact']->skype);
                 <div class="register-btns">
                     <a class="sign-up ths-popup-link" href="
                         <?if(!Yii::$app->session['success_registration'] && !Yii::$app->session['success_registration_step2'] && !Yii::$app->session['success_registration_step3']){?>#register-email<?}else if(Yii::$app->session['success_registration_step2']){?>#terms-and-conditions<?}elseif(Yii::$app->session['success_registration_step3']){?>#registration-main<?}else{?>#sign-up-popup<?}?>
-                    ">Sign up</a>
+                    ">Sign up1</a>
                     <a class="login ths-popup-link" href="#login-popup">Login</a>
                 </div>
 
